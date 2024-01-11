@@ -1,0 +1,260 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #E2EBF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.full {
+    text-transform: capitalize;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hed {
+    margin: 0;
+    width: 100%; 
+    box-sizing: border-box;
+    border: 1px solid #c6e7d2;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.full {
+    text-transform: capitalize;
+    background-color: white;
+}
+
+label {
+    color: #636465;
+}
+
+.spn {
+    padding-top: 200px;
+    text-transform:none;
+    color: #AFB5C0;
+    font-size: 10px;
+}
+
+#star {
+    color: red;
+}
+
+.btn3 {
+    width: 250px;
+}
+.board{
+    margin-left: 50px;
+}
+
+.lss{
+    border-left: 1px solid #c6e7d2;
+}
+.lst{
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.radio-button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-transform: capitalize;
+    background-color: white;
+    padding-left: 30px;
+    margin-left: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.radio-button.ccc {
+    
+    background-color: rgb(175, 241, 175);
+}
+.fullch {
+    background-color: rgb(175, 241, 175);
+    width: 200px;
+    border-bottom: 4px solid rgb(29, 144, 29)
+}
+.radio-button::before {
+    
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid green;
+}
+
+.grn {
+    color: #54B476;
+    
+}
+
+
+.radio-button.checked::before {
+    
+    content: '✔';
+    font-size: 12px;
+    line-height: 12px;
+    color: green;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+
+
+form {
+    padding: 20px;
+}
+
+.btn {
+    text-align: right;
+    margin: 10px;
+    margin-top: 70px;
+}
+
+.btn>.restbtn {
+    background-color: #B3BAC8;
+    padding: 10px;
+    border: 1px solid #B3BAC8;
+    border-radius: 4px;
+    width: 150px;
+    color: white;
+}
+
+.btn>.subbtn {
+    background-color: #55BC7A;
+    padding: 10px;
+    border: 1px solid #55BC7A;
+    color: white;
+    border-radius: 4px;
+    width: 180px;
+
+}
+
+
+table.bx {
+
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    height: 300px;
+}
+
+table.bx td {
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.an,.as,.tfn,.cn {
+    margin-right: 30px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 15px ;
+    background-color: white;
+    color: #333;
+    width:200px;
+}
+
+.pd,.tn,.we,.cff {
+    margin-right: 30px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 15px ;
+    background-color: white;
+    color: #333;
+    width:200px;
+}
+/* .an,
+.pd,
+.as,
+.tn,
+.tfn,
+.ei,
+.we,
+.cn {
+
+} */
+.ei {
+    margin-right: 30px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 15px ;
+    background-color: white;
+    color: #333;
+    width:220px;
+}
+
+.cyb,
+.ssb {
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 15px ;
+    background-color: white;
+    color: #333;
+    width:87px;
+}
+
+.ss {
+    padding-left: 150px;
+}
+
+.btnrad {
+    background-color: #F5F6F9;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.od1 {
+    margin-right: 50px;
+
+}
+
+
+.rl1 {
+    margin-right: 50px;
+}
+
+.at {
+    margin-right: 30px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 15px ;
+    background-color: white;
+    color: #333;
+    width:250px;
+}
+
+.cff {
+    padding: 10px 16px;
+    background-color: #e6f9ed;
+    
+}
+
